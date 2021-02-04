@@ -20,19 +20,53 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	i#include <stdio.h>
+	/s**
+"2	LINE	0
+	 *
+	 *
+"3	LINE	0
+	 * Return:  always 0
+	 */
+"4	LINE	0
+	int main(void)
+	{
+"5	LINE	0
+	puts("\"Programming is like building a multilingual puzzle");
+	
+"6	LINE	0
+	return (0);
+	}
+"7	LINE	0
+	#include <stdio.h>
+"8	LINE	0
+	/**
+	 *main - Is where the program start its execution.
+"9	LINE	0
+	 *
+	}
 
 # File marks:
-'0  2  12  ~/0x00-hello_world/1-compiler
-'1  2  12  ~/1-compiler
-'2  2  17  ~/0x00-hello_world/0-preprocessor
-'3  2  14  ~/0x00-hello_world/0x00-hello_world
-'4  2  21  ~/0x00-hello_world/README.md
-'5  20  3  ~/Betty/betty
-'6  3  17  ~/0x00-hello_world/0-preprocessor
-'7  2  2  ~/0x00-hello_world/.c
-'8  1  0  ~/README.md
+'0  1  1  ~/0x00-hello_world/4-puts.c
+'1  14  0  ~/0x00-hello_world/5-printf.c
+'2  1  0  ~/0x00-hello_world/4-puts.c
+'3  1  10  ~/0x00-hello_world/4-puts.c
+'4  1  0  ~/0x00-hello_world/4-puts.c
+'5  1  0  ~/0x00-hello_world/4-puts.c
+'6  1  14  ~/0x00-hello_world/4-puts.c
+'7  1  19  ~/0x00-hello_world/4-puts.c
+'8  1  0  ~/0x00-hello_world/4-puts.c
+'9  2  19  ~/0x00-hello_world/3-name
 
 # Jumplist (newest first):
+-'  1  1  ~/0x00-hello_world/4-puts.c
+-'  14  0  ~/0x00-hello_world/5-printf.c
+-'  1  0  ~/0x00-hello_world/5-printf.c
+-'  2  19  ~/0x00-hello_world/3-name
+-'  1  0  ~/0x00-hello_world/3-name
+-'  2  12  ~/0x00-hello_world/2-assembler
+-'  1  0  ~/0x00-hello_world/2-assembler
 -'  2  12  ~/0x00-hello_world/1-compiler
 -'  1  0  ~/0x00-hello_world/1-compiler
 -'  2  12  ~/1-compiler
@@ -119,26 +153,72 @@
 -'  2  2  ~/0x00-hello_world/.c
 -'  1  0  ~/0x00-hello_world/.c
 -'  1  0  ~/README.md
--'  1  0  ~/README.md
--'  2  2  ~/0x00-hello_world/.c
--'  1  0  ~/0x00-hello_world/.c
--'  1  0  ~/README.md
--'  1  0  ~/README.md
--'  2  2  ~/0x00-hello_world/.c
--'  1  0  ~/0x00-hello_world/.c
--'  1  0  ~/README.md
--'  2  17  ~/0x00-hello_world/0-preprocessor
--'  1  0  ~/0x00-hello_world/0-preprocessor
--'  2  14  ~/0x00-hello_world/0x00-hello_world
+-'  2  19  ~/0x00-hello_world/3-name
 
 # History of marks within files (newest to oldest):
+
+> ~/0x00-hello_world/4-puts.c
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	18
+	+	1	17
+	+	1	0
+	+	1	6
+	+	1	8
+	+	1	0
+	+	1	2
+	+	1	0
+	+	1	1
+	+	1	19
+	+	1	16
+	+	1	0
+	+	1	15
+	+	1	0
+	+	1	8
+	+	1	5
+	+	1	0
+	+	1	0
+	+	1	14
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	16
+	+	1	0
+	+	1	2
+	+	1	0
+	+	1	2
+	+	1	0
+	+	1	1
+	+	1	16
+	+	14	0
+	+	1	1
+
+> ~/0x00-hello_world/5-printf.c
+	"	14	0
+	^	14	1
+	.	14	0
+	+	14	0
+
+> ~/0x00-hello_world/3-name
+	"	2	19
+	^	2	20
+	.	2	19
+	+	2	19
+
+> ~/0x00-hello_world/2-assembler
+	"	2	12
+	^	2	13
+	.	2	12
+	+	2	12
 
 > ~/0x00-hello_world/1-compiler
 	"	2	12
 	^	2	13
 	.	2	12
+	+	1	11
 	+	2	12
-	p	1	0
 
 > ~/1-compiler
 	"	2	12
